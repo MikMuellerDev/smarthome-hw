@@ -1,6 +1,8 @@
 # Smarthome-hw
  Hardware interface for the Smarthome server
  
+ # This repository has been transferred to the [Smarthome](https://github.com/smarthome-go/node) organization.
+ 
  ### What does it do?
  The Smarthome server acts like a global hub to connect services, people and hardware together.
  Because the hub is a centralized server which should be able to run on any hardware, not just the Raspberry-Pi, a master-slave setup is used to control the power outlets accessible to smarthome users. In this setup, the Smarthome-hub acts as the master which is able to orchistrate the slaves, in this case the hardware-nodes.
